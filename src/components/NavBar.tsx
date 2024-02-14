@@ -4,7 +4,7 @@ import logo from "../assets/chakra.png";
 const NavBar = () => {
   return (
     <HStack>
-      <Image src={logo} boxSize="60px" />
+      <Image src={logo} boxSize="30px" borderRadius="20" />
     </HStack>
   );
 };
